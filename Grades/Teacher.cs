@@ -130,40 +130,6 @@ namespace Grades
             }
 
         }
-        //public static void studentsInfo(string profName,int numOfstuds) 
-        //{
-        //    int counter = 0;
-        //    for (int i = 0; i < numOfstuds; i++)
-        //    {
-        //        Professor CurrentStud = new Professor();
-
-        //        CurrentStud.gradesList = new List<int>();
-        //        CurrentStud.name = profName;
-
-        //        Console.WriteLine("What is your Stud Name ?");
-        //        string studName = Console.ReadLine();
-        //        CurrentStud.studentName = studName;
-
-
-        //        Console.WriteLine("What is the Stud ID ? ");
-        //        int studentID = int.Parse((Console.ReadLine()));
-        //        CurrentStud.id = studentID;
-
-        //        Console.WriteLine("Gimmie his Grades...");
-
-
-        //        for (int j = 0; j < 3; j++)
-        //        {
-        //            int studGrades = int.Parse((Console.ReadLine()));
-
-        //            CurrentStud.gradesList.Add(studGrades);
-        //        }
-        //        Console.WriteLine("_______________________________________________________________");
-        //        Console.WriteLine($"Stud number:  {counter}\n Name:{CurrentStud.studentName}\n ID :{CurrentStud.id}\n Grades: \n {CurrentStud.gradesList[0]}\n {CurrentStud.gradesList[1]}\n {CurrentStud.gradesList[2]}\n");
-        //        Console.WriteLine("_______________________________________________________________");
-        //        counter++;
-        //    }
-
 
         static void writingTheFile(string profName, int numOfstuds)
         {
@@ -174,22 +140,9 @@ namespace Grades
 
         static void exceptionSht()
         {
-             throw new FormatException("Bro, Format Exception , Must be a String . ");
+            throw new FormatException("Bro, Format Exception , Must be a String . ");
         }
-        //public
-        //public static void GetStudNum2()
-        //{
-        //    Console.WriteLine("Alright , for your student grades , please give me your Name .");
-        //    string professorName = Console.ReadLine();
-        //    Console.WriteLine("O");
-        //    FileStream professorFile = new FileStream($@"c:\Test\Studs\{professorName}.txt", FileMode.Open);
-        //    using (StreamReader studNameNGrades = new StreamReader(professorFile))
-        //    {
-        //        string studName = studNameNGrades.ReadLine().Substring(12, 12);
 
-        //    }
-
-        //}
 
     }
 
